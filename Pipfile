@@ -5,9 +5,11 @@ verify_ssl = true
 
 [dev-packages]
 pylint = "*"
+ruamel-yaml = "*"
 
 [packages]
 ruamel-yaml = "*"
+pylint = "*"
 
 [requires]
 python_version = "3"
