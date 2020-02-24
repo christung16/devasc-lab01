@@ -67,6 +67,9 @@ if __name__ == "__main__":
     print (user_json)
     print('----------------------')
 
+    with open ('user.json','w') as file:
+        json.dump(user_json, file)    
+    file.close()
     # Create JSON structre with indents and soreted keys
     print('JSON with indents and sorted keys')
 
