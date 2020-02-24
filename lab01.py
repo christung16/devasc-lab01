@@ -168,3 +168,5 @@ if __name__ == "__main__":
     print('Elements in NS b:')
     for element in list(elementsInNSb[0]):
         print (element.tag + ':' + element.text)
+
+    print('End of the program')
